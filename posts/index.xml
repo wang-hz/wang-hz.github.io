@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on HZ's blog</title><link>https://wang-hz.github.io/posts/</link><description>Recent content in Posts on HZ's blog</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 21 Sep 2022 15:56:00 +0800</lastBuildDate><atom:link href="https://wang-hz.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>使用 Hugo 和 Github Actions 构建 Github Pages</title><link>https://wang-hz.github.io/2022/09/%E4%BD%BF%E7%94%A8-hugo-%E5%92%8C-github-actions-%E6%9E%84%E5%BB%BA-github-pages/</link><pubDate>Wed, 21 Sep 2022 15:56:00 +0800</pubDate><guid>https://wang-hz.github.io/2022/09/%E4%BD%BF%E7%94%A8-hugo-%E5%92%8C-github-actions-%E6%9E%84%E5%BB%BA-github-pages/</guid><description>Hugo Hugo 是一个可以快速构建静态网站的框架，我们可以参考 Quick Start | Hugo 来快速上手 Hugo。
+安装 Hugo Hugo 官方文档推荐使用包管理器来安装 Hugo。
+在 macOS 下，我们一般使用 Homebrew 包管理器。
+brew install hugo 在 Windows 下，我们可以使用 Chocolatey、Scoop 等包管理器来安装 Hugo。
+安装完成后，我们可以在终端执行 hugo 命令。
+hugo version 使用 Hugo 创建网站 通过执行以下命令，我们将在当前路径下创建 hugo-blog 文件夹，文件夹中包含新创建的网站代码。
+hugo new site hugo-blog 为网站添加主题 我们可以在 themes.gohugo.io 网站上选择适用于 Hugo 框架的博客主题，本站使用的是 Hugo PaperMod 主题，主题文件存放在 hugo-blog 文件夹中的 theme/hugo-PaperMod-6.0 路径下。我们可以直接下载主题文件，也可以使用 git submodule add 命令添加主题文件的 git repo。
+然后，我们需要在 config 文件中添加对网站主题的设置。
+echo &amp;#34;theme = &amp;#39;hugo-PaperMod-6.0&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.</description></item></channel></rss>
